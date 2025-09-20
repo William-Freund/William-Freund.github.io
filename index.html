@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will Freund - Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <pre class="ascii-art">
+<span class="blink"> __        __ </span> _   _   _
+<span class="blink"> \ \      / / </span>(_) | | | |
+<span class="blink">  \ \ /\ / /  </span> _  | | | |
+<span class="blink">   \ V  V /   </span>| | | | | |
+<span class="blink">    \_/\_/    </span>|_| |_| |_|
+            </pre>
+            <nav>
+                <a href="#home" class="nav-link active">[home]</a>
+                <a href="#blog" class="nav-link">[blog]</a>
+                <a href="#about" class="nav-link">[about]</a>
+            </nav>
+        </header>
+
+        <main id="content">
+            <section id="home" class="content-section active">
+                <p class="intro">
+                    Hello World
+                </p>
+                <div class="quick-links">
+                    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+                    <a href="mailto:your.email@example.com">Email</a>
+                </div>
+            </section>
+
+            <section id="blog" class="content-section">
+                <h2>Blog Posts</h2>
+                <div class="blog-posts">
+                    <article class="blog-post">
+                        <time>2025-09-19</time>
+                        <h3><a href="#post1">Coming Soon . . .</a></h3>
+                        <p>Opinions still loading</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="about" class="content-section">
+                <h2>About Me</h2>
+                <p>
+                    I'm a human. I live on earth.
+                </p>
+                <p>
+                    I specialize in:
+                </p>
+                <ul>
+                    <li>Walking</li>
+                    <li>In</li>
+                    <li>Lasting</li>
+                    <li>Light</li>
+                </ul>
+                <h3>Experience</h3>
+                <div class="experience">
+                    <div class="job">
+                        <h4>Software Engineer @ WillCorp</h4>
+                        <time>2022 - Present</time>
+                        <p>Building willy good projects.</p>
+                    </div>
+                    <div class="job">
+                        <h4>Junior Developer @ StartupWill</h4>
+                        <time>2020 - 2022</time>
+                        <p>Full-Will development.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="theme-switcher">
+                <button class="theme-btn active" onclick="setTheme('light')">light</button>
+                <button class="theme-btn" onclick="setTheme('dark')">dark</button>
+            </div>
+            <p>&copy; 2025 Will</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
